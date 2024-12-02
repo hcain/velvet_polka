@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Cinzel, Tangerine } from 'next/font/google'
 import './globals.css'
 
-export const cinzel = Cinzel({
+const cinzel = Cinzel({
   weight: '400',
   subsets: ['latin'],
 })
