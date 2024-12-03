@@ -62,7 +62,7 @@ export default function Home() {
       <p className={styles.details}>
         Please call Carolina or Hannah upon arrival, as the buzzer is broken.
       </p>
-      <Image src={flake4} height="100" width="100" />
+      <Image src={flake4} height="100" width="100" alt="snowflake"/>
     </main>
   );
 }
