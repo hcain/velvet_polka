@@ -12,7 +12,7 @@ function createFlake() {
 	return flake
 }
 
-function animateFlake(flake) {
+function animateFlake(flake: gsap.TweenTarget) {
 	
 	let scaleFactor = Power3.easeIn(Math.random()) //change to easeOut for more larger flakes
 	let scale = gsap.utils.interpolate(0.3, 2, scaleFactor)
