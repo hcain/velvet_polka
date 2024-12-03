@@ -105,11 +105,11 @@
     font-size: 4em;
   }
 
-  .pretitle, .subtitle {
+  .pretitle, .subtitle, .date_container, .address_container {
     font-size: 1em;
   }
 
-  .date_container, .address_container, .details {
+  .details {
     font-size: 1.15em;
   }
 }
