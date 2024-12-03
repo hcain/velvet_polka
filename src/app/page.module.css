@@ -97,20 +97,20 @@
 }
 
 /* Mobile */
-@media (min-width: 400px) and (max-width: 600px) {
+@media (max-width: 600px) {
   .main {
     padding: 5rem 2rem;
   }
   .title { 
-    font-size: 5em;
+    font-size: 4em;
   }
 
   .pretitle, .subtitle {
-    font-size: 1.15em;
+    font-size: 1em;
   }
 
   .date_container, .address_container, .details {
-    font-size: 1.25em;
+    font-size: 1.15em;
   }
 }
 
