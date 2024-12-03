@@ -7,11 +7,6 @@ const cinzel = Cinzel({
   subsets: ['latin'],
 })
 
-export const tangerine = Tangerine({
-  weight: '400',
-  subsets: ['latin'],
-})
-
 export const metadata: Metadata = {
   title: 'Velvet & Polka Dots',
   description: 'A holiday party',

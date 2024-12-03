@@ -1,9 +1,15 @@
 import Image from "next/image";
 import velvetBackground from "public/close-up-velvet-texture.jpg";
 import flake4 from "public/flake4.svg"
-import { tangerine } from "./layout";
+import { Tangerine } from 'next/font/google'
 import { clsx } from "clsx";
 import styles from "./page.module.css";
+
+
+const tangerine = Tangerine({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export default function Home() {
   return (
