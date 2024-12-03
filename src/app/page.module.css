@@ -112,6 +112,18 @@
   .details {
     font-size: 1.15em;
   }
+
+  .line {
+    height: 80px
+  }
+
+  .info_container {
+    padding: 20px 0 10px;
+  }
+
+  .subtitle {
+    margin-top: 0;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
