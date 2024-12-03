@@ -1,15 +1,20 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  justify-items: space-around; 
   align-items: center;
-  padding: 6rem;
+  padding: 4rem;
   min-height: 100vh;
+  background: url(../../public/red_velvet.jpg) no-repeat center center fixed;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode:overlay;
+  background-size: cover;
 }
 
-.bg_image {
+/* .bg_image {
   z-index: 0;
-}
+} */
 
 .flake {
 	position:absolute;

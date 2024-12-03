@@ -14,7 +14,7 @@ const tangerine = Tangerine({
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Image
+      {/* <Image
         className={styles.bg_image}
         src={velvetBackground}
         alt="Red Velvet Fabric"
@@ -25,7 +25,7 @@ export default function Home() {
           objectFit: "cover",
           opacity: 0.3,
         }}
-      />
+      /> */}
       <div className={styles.titles}>
         <h2 className={styles.pretitle}>Carolina & Hannah invite you to</h2>
         <h1 className={clsx(tangerine.className, styles.title)}>
